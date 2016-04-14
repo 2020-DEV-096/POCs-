@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "UIAlertController+MyAdditions.h"
 
 @interface ViewController ()
+@property(nonatomic,strong) UIAlertController *alert;
 
 @end
 
@@ -16,14 +18,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 - (IBAction)clicked:(id)sender {
+    self.alert = [UIAlertController alertControllerWithTitle:@"Hi" message:@"Test Alert" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"Ok Selected");
+    }];
+    [self.alert addAction:okAction];
+    [self.alert show];
+//    //[self presentViewController:self.alert animated:YES completion:^{
+//        NSLog(@"Alert Shown");
+//        [self performSelector:@selector(dismissAlert) withObject:nil afterDelay:2.0];
+//    }];
+}
+
+-(void)dismissAlert
+{
+    if (self.alert) {
+        [self.alert dismissViewControllerAnimated:YES completion:nil];
+    }
     
 }
 

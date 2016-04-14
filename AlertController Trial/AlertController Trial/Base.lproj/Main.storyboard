@@ -18,14 +18,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVG-pJ-4Ul">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="263" y="285" width="75" height="30"/>
+                                <color key="backgroundColor" red="0.23671360356587845" green="0.65242154461172031" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Show Alert">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XiT-aU-JpE"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.89207313060000004" blue="0.68350220539999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="oVG-pJ-4Ul" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AwO-vv-oO0"/>
                             <constraint firstItem="oVG-pJ-4Ul" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ww7-Tw-Y5m"/>
@@ -34,6 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140" y="137"/>
         </scene>
     </scenes>
 </document>

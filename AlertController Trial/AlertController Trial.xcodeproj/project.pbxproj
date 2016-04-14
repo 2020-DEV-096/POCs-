@@ -13,6 +13,7 @@
 		2A6C6AF51CC027F200D84E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6C6AF31CC027F200D84E0C /* Main.storyboard */; };
 		2A6C6AF71CC027F200D84E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A6C6AF61CC027F200D84E0C /* Assets.xcassets */; };
 		2A6C6AFA1CC027F200D84E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6C6AF81CC027F200D84E0C /* LaunchScreen.storyboard */; };
+		2A6C6B031CC02EE300D84E0C /* UIAlertController+MyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6C6B021CC02EE300D84E0C /* UIAlertController+MyAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2A6C6AF61CC027F200D84E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A6C6AF91CC027F200D84E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A6C6AFB1CC027F200D84E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A6C6B011CC02EE300D84E0C /* UIAlertController+MyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+MyAdditions.h"; sourceTree = "<group>"; };
+		2A6C6B021CC02EE300D84E0C /* UIAlertController+MyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+MyAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				2A6C6AF81CC027F200D84E0C /* LaunchScreen.storyboard */,
 				2A6C6AFB1CC027F200D84E0C /* Info.plist */,
 				2A6C6AEA1CC027F200D84E0C /* Supporting Files */,
+				2A6C6B011CC02EE300D84E0C /* UIAlertController+MyAdditions.h */,
+				2A6C6B021CC02EE300D84E0C /* UIAlertController+MyAdditions.m */,
 			);
 			path = "AlertController Trial";
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A6C6B031CC02EE300D84E0C /* UIAlertController+MyAdditions.m in Sources */,
 				2A6C6AF21CC027F200D84E0C /* ViewController.m in Sources */,
 				2A6C6AEF1CC027F200D84E0C /* AppDelegate.m in Sources */,
 				2A6C6AEC1CC027F200D84E0C /* main.m in Sources */,
@@ -301,6 +307,7 @@
 				2A6C6B001CC027F200D84E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
