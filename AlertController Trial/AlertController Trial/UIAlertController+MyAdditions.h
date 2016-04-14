@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface UIAlertController (MyAdditions)
+
 @property(nonatomic,strong) UIWindow *alertWindow;
 
 -(void)show;
+-(void)hide;
+
+
 @end

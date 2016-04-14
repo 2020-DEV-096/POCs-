@@ -61,17 +61,12 @@
 		2A6C6AE91CC027F200D84E0C /* AlertController Trial */ = {
 			isa = PBXGroup;
 			children = (
-				2A6C6AED1CC027F200D84E0C /* AppDelegate.h */,
-				2A6C6AEE1CC027F200D84E0C /* AppDelegate.m */,
 				2A6C6AF01CC027F200D84E0C /* ViewController.h */,
 				2A6C6AF11CC027F200D84E0C /* ViewController.m */,
-				2A6C6AF31CC027F200D84E0C /* Main.storyboard */,
-				2A6C6AF61CC027F200D84E0C /* Assets.xcassets */,
-				2A6C6AF81CC027F200D84E0C /* LaunchScreen.storyboard */,
-				2A6C6AFB1CC027F200D84E0C /* Info.plist */,
-				2A6C6AEA1CC027F200D84E0C /* Supporting Files */,
 				2A6C6B011CC02EE300D84E0C /* UIAlertController+MyAdditions.h */,
 				2A6C6B021CC02EE300D84E0C /* UIAlertController+MyAdditions.m */,
+				2A6C6AF31CC027F200D84E0C /* Main.storyboard */,
+				2A6C6AEA1CC027F200D84E0C /* Supporting Files */,
 			);
 			path = "AlertController Trial";
 			sourceTree = "<group>";
@@ -79,6 +74,11 @@
 		2A6C6AEA1CC027F200D84E0C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2A6C6AED1CC027F200D84E0C /* AppDelegate.h */,
+				2A6C6AEE1CC027F200D84E0C /* AppDelegate.m */,
+				2A6C6AF61CC027F200D84E0C /* Assets.xcassets */,
+				2A6C6AF81CC027F200D84E0C /* LaunchScreen.storyboard */,
+				2A6C6AFB1CC027F200D84E0C /* Info.plist */,
 				2A6C6AEB1CC027F200D84E0C /* main.m */,
 			);
 			name = "Supporting Files";

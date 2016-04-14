@@ -29,17 +29,19 @@
         NSLog(@"Ok Selected");
     }];
     [self.alert addAction:okAction];
-    [self.alert show];
-//    //[self presentViewController:self.alert animated:YES completion:^{
-//        NSLog(@"Alert Shown");
-//        [self performSelector:@selector(dismissAlert) withObject:nil afterDelay:2.0];
-//    }];
+    
+    // to hide the alert automatically
+    [UIView animateWithDuration:0 animations:^{
+        [self.alert show];
+    } completion:^(BOOL finished) {
+        [self performSelector:@selector(dismissAlert) withObject:nil afterDelay:2];
+    }];
 }
 
 -(void)dismissAlert
 {
     if (self.alert) {
-        [self.alert dismissViewControllerAnimated:YES completion:nil];
+        [self.alert hide];
     }
     
 }

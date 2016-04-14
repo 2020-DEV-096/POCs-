@@ -33,6 +33,11 @@
     [self.alertWindow.rootViewController presentViewController:self animated:YES completion:nil];
 }
 
+-(void)hide {
+    self.alertWindow.hidden = YES;
+    self.alertWindow = nil;
+}
+
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
     
@@ -40,5 +45,6 @@
     self.alertWindow.hidden = YES;
     self.alertWindow = nil;
 }
+
 
 @end
